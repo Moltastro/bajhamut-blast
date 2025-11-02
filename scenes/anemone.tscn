@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://rngpupjbb4ni"]
+
+[ext_resource type="Texture2D" uid="uid://c1h7selbu4r0a" path="res://eyeOfNotEnder.png" id="1_1jeer"]
+[ext_resource type="Texture2D" uid="uid://c8guyd4vfcwp0" path="res://piss.png" id="2_ykut3"]
+
+[node name="Anemone" type="Node2D"]
+
+[node name="EyeOfNotEnder" type="Sprite2D" parent="."]
+texture = ExtResource("1_1jeer")
+
+[node name="pisstråle" type="Line2D" parent="."]
+texture_repeat = 3
+points = PackedVector2Array(0, 0, 133, -7)
+width = 9.895
+texture = ExtResource("2_ykut3")
+texture_mode = 1
+joint_mode = 2
+end_cap_mode = 2
